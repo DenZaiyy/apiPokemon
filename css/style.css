@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#app {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px;
+}
+#app .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  width: 200px;
+  height: 300px;
+  border-radius: 20px;
+  border: 5px double #000;
+}
+#app .card.normal {
+  background-color: #a8a77a;
+}
+#app .card.fire {
+  background-color: #ee8130;
+}
+#app .card.water {
+  background-color: #6390f0;
+}
+#app .card.electric {
+  background-color: #f7d02c;
+}
+#app .card.grass {
+  background-color: #7ac74c;
+}
+#app .card.ice {
+  background-color: #96d9d6;
+}
+#app .card.fighting {
+  background-color: #c22e28;
+}
+#app .card.poison {
+  background-color: #a33ea1;
+}
+#app .card.ground {
+  background-color: #e2bf65;
+}
+#app .card.flying {
+  background-color: #a98ff3;
+}
+#app .card.psychic {
+  background-color: #f95587;
+}
+#app .card.bug {
+  background-color: #a6b91a;
+}
+#app .card.rock {
+  background-color: #b6a136;
+}
+#app .card.ghost {
+  background-color: #735797;
+}
+#app .card.dragon {
+  background-color: #6f35fc;
+}
+#app .card.dark {
+  background-color: #705746;
+}
+#app .card.steel {
+  background-color: #b7b7ce;
+}
+#app .card.fairy {
+  background-color: #d685ad;
+}
+#app .card .names {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#app .card .names h2 {
+  font-size: 1.2rem;
+  font-weight: lighter;
+  text-transform: capitalize;
+  text-shadow: 1px 1px 2px black;
+}
+#app .card .img {
+  width: 100%;
+  text-align: center;
+}
+#app .card img {
+  width: 100%;
+  filter: drop-shadow(0 0 0.4rem black);
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+.pagination button {
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.pagination button:hover {
+  background-color: #000;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}/*# sourceMappingURL=style.css.map */

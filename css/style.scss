@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#app {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+        width: 200px;
+        height: 300px;
+        border-radius: 20px;
+        border: 5px double #000;
+
+        &.normal {
+            background-color: #a8a77a;
+        }
+
+        &.fire {
+            background-color: #ee8130;
+        }
+
+        &.water {
+            background-color: #6390f0;
+        }
+
+        &.electric {
+            background-color: #f7d02c;
+        }
+
+        &.grass {
+            background-color: #7ac74c;
+        }
+
+        &.ice {
+            background-color: #96d9d6;
+        }
+
+        &.fighting {
+            background-color: #c22e28;
+        }
+
+        &.poison {
+            background-color: #a33ea1;
+        }
+
+        &.ground {
+            background-color: #e2bf65;
+        }
+
+        &.flying {
+            background-color: #a98ff3;
+        }
+
+        &.psychic {
+            background-color: #f95587;
+        }
+
+        &.bug {
+            background-color: #a6b91a;
+        }
+
+        &.rock {
+            background-color: #b6a136;
+        }
+
+        &.ghost {
+            background-color: #735797;
+        }
+
+        &.dragon {
+            background-color: #6f35fc;
+        }
+
+        &.dark {
+            background-color: #705746;
+        }
+
+        &.steel {
+            background-color: #b7b7ce;
+        }
+
+        &.fairy {
+            background-color: #d685ad;
+        }
+
+        .names {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            h2 {
+                font-size: 1.2rem;
+                font-weight: lighter;
+                text-transform: capitalize;
+                text-shadow: 1px 1px 2px black;
+            }
+        }
+
+        .img {
+            width: 100%;
+            text-align: center;
+        }
+
+        img {
+            width: 100%;
+            filter: drop-shadow(0 0 0.4rem black);
+        }
+    }
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+
+    button {
+        padding: 10px;
+        border: 1px solid #000;
+        border-radius: 5px;
+        background-color: #fff;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+
+        &:hover {
+            background-color: #000;
+            color: #fff;
+            transition: all 0.3s ease-in-out;
+        }
+    }
+}
